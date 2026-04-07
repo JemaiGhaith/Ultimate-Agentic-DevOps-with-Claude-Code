@@ -1,0 +1,11 @@
+# Secrets
+.claude/settings.local.json
+
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Agent memory (local runtime state)
+.claude/agent-memory/
